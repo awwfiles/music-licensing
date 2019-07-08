@@ -1,0 +1,1070 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,300,400,800,600');
+/* TABLE OF CONTENTS: */
+
+/*--------------------------------------------------------*/
+
+/* 01 - RESET STYLES */
+
+/* 02 - GLOBAL SETTINGS */
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/* 01 - RESET STYLES */
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.slick-dots {
+    display: none;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/* 02 - GLOBAL SETTINGS */
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: rgba(23, 23, 23, 1.0);
+    overflow-x: hidden;
+    width: 100%;
+    color: #FFF;
+    overflow-x: hidden;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+    outline: 0 none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px #FAFAFA inset !important;
+}
+
+input::-webkit-input-placeholder {
+    color: #FFF;
+}
+
+input:-moz-placeholder {
+    color: #FFF;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.container {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.show {
+    opacity: 1 !important;
+    left: 0 !important;
+}
+
+.hideoverflow {
+    overflow: hidden !important;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/* 03 - Learnmore SETTINGS */
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.learnmore .header {
+    background-image: url(background.jpg);
+    height: 1166px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: cover;
+
+}
+
+.learnmore .header .musiclicensingreim {
+        background-color: rgba(0, 0, 0, 0.51);
+    height: auto;
+    width: auto;
+    margin: 0;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 100.0px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 117.0px;
+}
+
+.learnmore .header .group {
+    top: 30%;
+}
+
+.learnmore .header .group .text3-layout-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.learnmore .header .group .ctabuttoncopy a {
+    background-color: #FFDA2A;
+    pointer-events: auto;
+    position: relative;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22.0px;
+    color: #000;
+    text-align: center;
+    line-height: 26.0px;
+    border: 2px solid;
+   /* border-radius: 60px;*/
+    padding: 11px 43px;
+    margin: 0 10px;
+    transition: all .5s ease;
+}
+
+.learnmore .header .group .ctabuttoncopy a:first-child {
+    border-color: #000;
+    color: #000;
+}
+
+.learnmore .header .group .ctabuttoncopy a:hover {
+    background-color: #FFDA2A;;
+    color: rgba(23, 23, 23, 1.0);
+    border-color: #FFDA2A;;
+}
+
+@media all and (max-width: 992px) {
+    .learnmore .header .musiclicensingreim {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .learnmore .header {
+        height: 50vh;
+        min-height: 600px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .learnmore .header .group .ctabuttoncopy a {
+        font-size: 15px;
+        padding: 6px 15px;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/* 04 - trusted SETTINGS */
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.learnmore .trusted {
+    position: relative;
+    padding:100px 0;
+}
+.learnmore .header:after {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 19vh;
+    /* z-index: 999999; */
+    bottom: 0;
+    background-image: linear-gradient(to top, #171717 0%, rgba(23,23,23,0.9) 43%,transparent 100%);
+}
+.learnmore .trusted .header1 .trustedbytheindus {
+    margin: 0;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 60.0px;
+    text-align: center;
+    line-height: 70.0px;
+    background-image: url(../assets/learn-more-line-3.png);
+    background-repeat: no-repeat;
+    background-position: 50% bottom;
+    background-size: 50%;
+    margin-bottom: 45px;
+    padding-bottom: 45px;
+}
+
+.learnmore .trusted .logos {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 58px;
+    width: 1053px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.learnmore .trusted .logos .fill1 {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 58px;
+    width: 70px;
+    position: absolute;
+    margin: 0;
+    left: 504px;
+}
+
+.learnmore .trusted .logos .fill11 {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 58px;
+    width: 50px;
+    position: absolute;
+    margin: 0;
+    left: 1003px;
+}
+
+.learnmore .trusted .logos .fill12 {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 4px;
+    height: 51px;
+    width: 155px;
+    position: absolute;
+    margin: 0;
+    left: 800px;
+}
+
+.learnmore .trusted .logos .fill13 {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 0px;
+    height: 58px;
+    width: 58px;
+    position: absolute;
+    margin: 0;
+    left: 0px;
+}
+
+.learnmore .trusted .logos .fill14 {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 4px;
+    height: 49px;
+    width: 167px;
+    position: absolute;
+    margin: 0;
+    left: 289px;
+}
+
+.learnmore .trusted .logos .fill15 {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 15px;
+    height: 29px;
+    width: 130px;
+    position: absolute;
+    margin: 0;
+    left: 622px;
+}
+
+.learnmore .trusted .logos .fill16 {
+    background-color: rgba(255, 255, 255, 0.0);
+    top: 15px;
+    height: 29px;
+    width: 135px;
+    position: absolute;
+    margin: 0;
+    left: 106px;
+}
+
+@media all and (max-width: 1200px) {
+    .learnmore .trusted .logos > img {
+        position: initial !important;
+        display: inline-block;
+        margin: 11px 43px ;
+    }
+    .learnmore .trusted .logos {
+        height: auto;
+        text-align: center;
+        width: 100%;
+    }
+    .learnmore .trusted .header1 .trustedbytheindus {
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 60px;
+        padding-bottom: 45px;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .learnmore .trusted {
+        position: relative;
+        bottom: 50px;
+        margin-bottom: 50px;
+        padding-bottom: 0;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/* 05 - newmusic SETTINGS */
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.newmusic .albums {
+    opacity: 0.3;
+    text-align: center;
+}
+.newmusic .swiper-container{
+
+}
+.newmusic .swiper-container img{
+    width:100%;
+}
+.newmusic .overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    background: rgba(30, 30, 30, 0.7);
+    z-index: 10;
+}
+
+.learnmore .newmusic {
+    position: relative;
+    
+}
+
+.swiper-wrapper {
+    -webkit-transition-timing-function: linear !important;
+    -o-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+}
+
+.learnmore .newmusic .alwaysevolving {
+    margin: 0;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60.0px;
+    color: rgba(255, 255, 255, 1.0);
+    line-height: 70.0px;
+    margin-bottom: 10px;
+}
+
+.learnmore .newmusic .promo {
+    margin: 0;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24.0px;
+    color: rgba(255, 255, 255, 1.0);
+    line-height: 29.0px;
+}
+.form-inner{
+    width: 60%;
+    margin: 0 auto;
+}
+.learnmore .newmusic .whetheritsthelat {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    text-align: center;
+    z-index: 999;
+}
+
+@media all and (max-width: 992px) {
+    .learnmore .newmusic .alwaysevolving {
+        font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+    .learnmore .newmusic .promo {
+        font-size: 20px;
+    }
+    .learnmore .newmusic .whetheritsthelat {
+        padding: 0 20px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .learnmore .newmusic {
+        min-height: 380px;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/* 06 - Artist SETTINGS */
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.learnmore .artists {
+    margin-top: 80px;
+    /*    background-image: url(../img/learn-more-interface-animation.png);*/
+    background-image: url(back2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.learnmore .artists .clear {
+    width: 100%;
+    height: 4em;
+}
+
+.slideartist {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.artlist {
+    width: 100%;
+    margin: 0 auto;
+/*
+    position: relative;
+    z-index: 3;
+*/
+}
+
+.artlist .artist1 {
+    min-height: 520px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin: 0 15px;
+    position: relative;
+    width: 30%;
+    border-radius: 6px;
+    float: left;
+        background-size: 115%;
+}
+
+.learnmore .artists .mariami {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30.0px;
+    color: #FFDA2A;
+    text-align: left;
+    line-height: 35.0px;
+}
+
+.learnmore .artists .indopopsensation1 {
+    margin: 0;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 22.0px;
+}
+
+.learnmore .artists .artisthp {
+    position: absolute;
+    bottom: 0;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    max-width: 260px;
+    z-index: 1;
+}
+
+.learnmore .artists h2 {
+    margin: 0;
+    margin-bottom: 60px;
+    left: 530px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 64.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 75.0px;
+    padding-top: 60px;
+}
+
+.learnmore .artists .energe {
+    text-align: center;
+    margin-top: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.learnmore .artists .energe p {
+    margin: 0;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 29.0px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    max-width: 890px;
+    margin: 0 auto;
+    background-image: url(../assets/learn-more-line-3.png);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: top;
+    background-size: 100%;
+}
+
+.learnmore .artists .energe a {
+    background-color: rgba(255, 255, 255, 0.0);
+    pointer-events: auto;
+    position: relative;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22.0px;
+    color: #FFDA2A;
+    text-align: center;
+    line-height: 26.0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FFDA2A;
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+@media all and (max-width: 992px) {
+    .learnmore .artists h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-top:0;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/* 07 - Creativity SETTINGS */
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.creativity {
+    text-align: center;
+    background-image: url(back3.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    margin-top: 100px;
+    background-position-y: center;
+    /* min-height: 60vh; */
+    padding: 8.8em 0;
+    background-size: cover;
+    background-position: 106% 52%;
+}
+
+.creativity h2 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 59.0px;
+    margin-bottom: 50px;
+}
+
+.creativity .rulelist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.creativity .rulelist .list {
+    flex-basis: 30%;
+    margin-bottom: 40px;
+}
+
+.creativity .rulelist .list h4 {
+    margin: 0;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 26.0px;
+    color: #FFDA2A;
+    text-align: center;
+    line-height: 30.0px;
+    margin-bottom: 10px;
+}
+
+.creativity .rulelist .list p {
+    margin: 0;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 22.0px;
+    max-width: 250px;
+    margin: 0 auto
+}
+
+.creativity .btn a {
+    background-color: #FFDA2A;;
+    pointer-events: auto;
+    position: relative;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22.0px;
+    color: #333;
+    text-align: center;
+    line-height: 26.0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FFDA2A;
+    border-radius: 25px;
+    padding: 7px 40px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 992px) {
+    .creativity .rulelist .list {
+        flex-basis: 100%;
+    }
+    .creativity h2 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/* 08 - Update SETTINGS */
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.update {
+    padding: 6.3%;
+    margin: 0 auto;
+}
+
+.update .stayupdate {
+    max-width: calc(1300px - 11.2%);
+    padding: 5.6% 6.6%;
+    margin: 0 auto;
+    background-image: url(../img/learn-more-img9411.png)
+}
+
+.update .upadateform {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 6.8%;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.update .upadateform h2 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 70.0px;
+    margin-bottom: 15px;
+}
+
+.update .upadateform p {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 29.0px;
+}
+
+.update #updateform {}
+
+.update #updateform .field {
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+body.compensate-for-scrollbar{
+    overflow: visible;
+}
+.update #updateform .field input {
+    background: transparent;
+    border: 1px solid transparent;
+    border-bottom-color: #999;
+    color: #FFF;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    text-align: left;
+    line-height: 29.0px;
+    margin-right: 20px;
+    width:100%;
+    font-family: "raleway", sans-serif;
+}
+.update #updateform  .submit{
+    pointer-events: auto;
+    position: relative;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22.0px;
+    text-align: center;
+    line-height: 26.0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FFDA2A;
+    border-radius: 25px;
+    padding: 7px 40px;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all ease;
+    background-color:#FFDA2A;
+    color:#333;
+    cursor: pointer;
+}
+.update #updateform  .submit:hover{
+background-color: transparent;
+color: #FFDA2A;
+}
+.update #updateform a {
+    
+}
+
+@media all and (max-width: 992px) {
+    .update .upadateform h2 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .update .upadateform p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .update #updateform .field input {
+        margin-bottom: 30px;
+    }
+    .update #updateform .field input:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/* 09 - Footer SETTINGS */
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.connect {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding-top: 70px;
+    padding-bottom: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.connect .connectwrap {
+    margin: auto;
+    max-width: 1300px;
+}
+
+.connect .contact {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.connect .contact a {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18.0px;
+    color: rgba(255, 255, 255, 1.0);
+    line-height: 21.0px;
+}
+
+.connect .social-list {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.connect ul.social {}
+
+.connect .social li {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.connect .social li a {}
+
+.connect .become-artlist {
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.connect .become-artlist a {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18.0px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 21.0px;
+}
+
+.connect .artlistbtm {
+    margin-bottom: 10px;
+}
+
+.connect .artlistbtm a {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18.0px;
+    color: #FFDA2A;
+    text-align: left;
+    line-height: 21.0px;
+}
+
+.connect .artlist a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: #FFDA2A;
+    text-decoration: underline;
+}
+
+.learnmore .artists:after {
+    width: 100vw;
+    height: 45vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to bottom, transparent 0%, #171717 67%, #171717 100%);
+}
+/*************
+Hover Effects
+*************/
+.btn-hover{
+    transition:0.2s all ease;
+}
+::selection {
+    background:#FFDA2A
+  }
+  ::-moz-selection {
+    background:#FFDA2A
+  }
+.btn-hover-1:hover{
+    background-color: #FFDA2A !important;
+    color: rgba(23, 23, 23, 1.0) !important;
+    border-color: #FFDA2A !important;
+}
+.btn-hover-2:hover{
+    background-color: transparent !important;
+    color: #FFDA2A !important;
+    border-color: #FFDA2A !important;
+}
+.connect .social li a{
+    transition:0.1s all ease;
+}
+.connect .social li a:hover{
+    color:#FFDA2A;;
+}
+/*Mobile Fixes*/
+@media all and (max-width: 768px) {
+    .connect .left,
+    .connect .right {
+        float: initial;
+        text-align: center;
+
+    }
+    .learnmore .trusted .logos > img{
+        display: block;
+        margin: 1.6em auto !important;
+    }
+    .artlist .artist1{
+        float: none;
+        width: 90%;
+        margin: 1em auto;
+    }
+    .creativity {
+        background-size: cover;
+        background-position: -8em 0em;
+        padding: 0;
+    }
+    .creativity .clear{
+        height: 2em;
+        width:100%;
+    }
+    .form-inner {
+        width: 100%;
+    }
+    .artists, .creativity {
+        padding: 0 15px;
+    }
+    #ytplayer{
+        width:100%;
+        height: 300px;
+    }
+}
